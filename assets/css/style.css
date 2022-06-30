@@ -1,8 +1,3 @@
-body {
-    margin: 20px 0px 20px 0px;
-    background-color: #ffff;
-}
-
 .nav-item {
     padding: 0px 20px 0px 0px;
 }
@@ -15,4 +10,44 @@ body {
 .navbar-nav {
     width: 100%;
     justify-content: end;
+}
+
+.mv-banner img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    position: relative;
+}
+
+.mv-banner-header {
+    color: black;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.mv-banner-header h1 {
+    padding: 0 29px;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 70px;
+}
+
+.mv-banner-header h4 {
+    font-size: 20px;
+}
+
+.contact-us-row {
+    background-color: white;
+}
+
+.mv-contact-us {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+
+.mv-contact-us-details {
+    padding: 26px 65px 0;
 }
